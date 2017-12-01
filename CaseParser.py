@@ -4,7 +4,7 @@ import json
 import os
 import ConfigParser
 import datetime
-
+wqewqeqwewqewqewqe
 # get folder name by timestamp MMddYY
 folder_name = datetime.datetime.now().strftime("%Y%m%d")
 
