@@ -7,15 +7,13 @@ from email.mime.text import MIMEText
 # get folder name by timestamp MMddYY
 folder_name = datetime.datetime.now().strftime("%Y%m%d")
 
-cf = ConfigParser.ConfigParser()
-cf.read("config.conf")
-HTMLOUTPUT = cf.get("source_dir","LOGDIR")+folder_name+"/result.html"
 
 # load html report
 fp=open(HTMLOUTPUT, 'rb')
 msg=MIMEText(fp.read(), 'html','utf-8');
 fp.close()
 
+sdfdsafdsaf
 ##--Ending of Loading result.html##
 
 # sendemail
