@@ -31,12 +31,5 @@ emails=[]
 emails.append(mails.split(','))
 emails=tuple(emails)
 
-msg['To'] = ','.join(emails[0])
-user = cf.get("mail_server", "ADRR")
-password = cf.get("mail_server", "PWD")
-# send mail by SMTP server (SSL, 465)
-#s = smtplib.SMTP_SSL('stbeehive.oracle.com')
-s = smtplib.SMTP('ap6023fems.us.oracle.com')
-#s.login(user, password)
-s.sendmail(msg['From'], emails[0], msg.as_string())
+msg['To'][0], msg.as_string())
 s.quit()
