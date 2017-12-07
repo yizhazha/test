@@ -8,9 +8,10 @@ from email.mime.text import MIMEText
 folder_name = datetime.datetime.now().strftime("%Y%m%d")
 
 
-# load html report
-fp=open(HTMLOUTPUT, 'rb')
-msg=MIMEText(fp.read(), 'html','utf-8');
+# l
+
+
+sadsafdafdafs
 fp.close()
 
 sdfdsafdsaf
