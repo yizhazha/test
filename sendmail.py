@@ -1,14 +1,3 @@
-import smtplib
-import ConfigParser
-import datetime
-from email.mime.text import MIMEText
-
-##--Beginning of Loading result.html##
-# get folder name by timestamp MMddYY
-folder_name = datetime.datetime.now().strftime("%Y%m%d")
-
-
-# l
 
 
 sadsafdafdafs
